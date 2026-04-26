@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Vert Émeraude Profond - Justice & Stabilité */
+  --color-primary: #064e3b; 
+  /* Vert plus clair pour les survols */
+  --color-primary-light: #065f46;
+  /* Ocre/Doré - Prestige & Action */
+  --color-secondary: #b45309; 
+  /* Fond légèrement teinté pour éviter le blanc pur agressif */
+  --color-accent: #f8fafc;
+}
