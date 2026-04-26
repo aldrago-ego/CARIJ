@@ -3,7 +3,7 @@ name: Deploy to FTP
 on:
   push:
     branches:
-      - main # Déclenche le déploiement à chaque push sur la branche main
+      - dev # Déclenche le déploiement à chaque push sur la branche main
 
 jobs:
   deploy:
@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.FTP_USR }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./ # Dossier à envoyer (ici la racine du dépôt)
-          server-dir: /${{ vars.work_dir_prod }} # Dossier distant (adapte selon ton hébergeur)
+          server-dir: /${{ vars.work_dir_preprod }} # Dossier distant (adapte selon ton hébergeur)
           protocol: ftp
