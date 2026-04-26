@@ -1,0 +1,24 @@
+name: Deploy to FTP
+
+on:
+  push:
+    branches:
+      - main   # Déclenche le déploiement à chaque push sur la branche main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Déploiement via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USR }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./  # Dossier à envoyer (ici la racine du dépôt)
+          server-dir: /  # Dossier distant (adapte selon ton hébergeur)
+          protocol: ftp

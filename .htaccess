@@ -1,0 +1,10 @@
+# Active le moteur de réécriture
+RewriteEngine On
+
+# Si le fichier ou dossier n'existe pas, redirige vers index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+# Déclare la page d’erreur 404 (optionnel)
+ErrorDocument 404 /index.php
