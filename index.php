@@ -34,7 +34,7 @@
         <a href="#accueil" class="brand">
           <!-- Logo mis à jour avec l'image officielle du CARIJ -->
           <div class="brand-logo-img">
-            <img src="images/logo_carij.png" alt="Logo CARIJ" style="height: 50px; width: auto; vertical-align: middle; margin-right: 10px;" />
+            <img src="images/logo_carij.jpeg" alt="Logo CARIJ" style="height: 50px; width: auto; vertical-align: middle; margin-right: 10px;" />
           </div>
           <div class="brand-text">
             <div class="brand-logo">CARIJ</div>
@@ -93,13 +93,13 @@
               <p>Nous nous appuyons sur une équipe pluridisciplinaire de juristes, de sociologues, d'anthropologues, d'économistes, de gestionnaires et de cartographes sous la supervision de l'administrateur de CARIJ qui totalise plus de trente années d'expérience.</p>
               
               <ul class="mission-list mt-4">
-                <li><span class="icon">🏛️</span> <strong>Accompagner</strong> les structures, les organisations et les institutions.</li>
-                <li><span class="icon">⚖️</span> <strong>Structurer</strong> les réformes institutionnelles, organisationnelles et juridictionnelles.</li>
-                <li><span class="icon">🌍</span> <strong>Prendre en compte</strong> les exigences de l'évolution de la société.</li>
+                <li><span class="icon">🏛️</span> <strong>Accompagner:</strong> les structures, les organisations et les institutions.</li>
+                <li><span class="icon">⚖️</span> <strong>Structurer:</strong> les réformes institutionnelles, organisationnelles et juridictionnelles.</li>
+                <li><span class="icon">🌍</span> <strong>Prendre en compte:</strong> les exigences de l'évolution de la société.</li>
               </ul>
             </div>
             <div class="about-image">
-              <img src="images/mission.png" alt="Professionnels du droit en réunion" />
+              <img src="images/papa.jpeg" alt="Professionnels du droit en réunion" />
               <div class="img-border"></div>
             </div>
           </div>
