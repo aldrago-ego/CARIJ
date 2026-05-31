@@ -32,8 +32,14 @@
     <header class="nav" id="navbar">
       <div class="nav-inner">
         <a href="#accueil" class="brand">
-          <div class="brand-logo">CARIJ</div>
-          <div class="brand-tagline">Comité d’Appui aux Réformes<br/>Institutionnelles et Juridictionnelles</div>
+          <!-- Logo mis à jour avec l'image officielle du CARIJ -->
+          <div class="brand-logo-img">
+            <img src="images/logo_carij.png" alt="Logo CARIJ" style="height: 50px; width: auto; vertical-align: middle; margin-right: 10px;" />
+          </div>
+          <div class="brand-text">
+            <div class="brand-logo">CARIJ</div>
+            <div class="brand-tagline">Comité d’Appui aux Réformes<br/>Institutionnelles et Juridictionnelles</div>
+          </div>
         </a>
 
         <button id="menu-toggle" class="menu-toggle" aria-label="Ouvrir le menu">
@@ -61,11 +67,10 @@
         </div>
         <div class="hero-content container">
           <div class="hero-card">
-            <h1>Pour la modernisation de la justice au Togo</h1>
+            <!-- Nouveau texte principal -->
+            <h1>Carij accompagne vos structures, vos organisations dans leurs réformes institutionnelles et juridictionnelles</h1>
             <div class="separator-gold"></div>
-            <p class="hero-subtitle">
-              Soutenir l'État, structurer les réformes et promouvoir les droits humains à travers l'expertise et la facilitation institutionnelle.
-            </p>
+            <!-- Petit texte du bas retiré conformément à ta demande -->
             <div class="cta-row">
               <a href="#mission" class="btn btn-primary">Notre Mission</a>
             </div>
@@ -73,21 +78,24 @@
         </div>
       </section>
 
-      <!-- About / Mission -->
+      <!-- About / Mission (L'Association) -->
       <section id="mission" class="section about-section bg-parchment">
         <div class="container">
           <div class="about-grid">
             <div class="about-text">
-              <span class="badge">Notre Rôle</span>
-              <h2>Organe Technique et Facilitateur</h2>
+              <span class="badge">Qui sommes-nous</span>
+              <h2>Comité d'Appui aux Réformes Institutionnelles et Juridictionnelles</h2>
               <div class="separator-gold-left"></div>
-              <p>Basé à Lomé, le <strong>CARIJ</strong> est un organe d'appui gouvernemental et un Think tank actif dans les réformes du système judiciaire togolais.</p>
-              <p>Notre mission n'est pas de légiférer ou de juger, mais de structurer l'avenir de la justice en proposant des politiques publiques basées sur des études minutieuses.</p>
+              
+              <!-- Remplacement par les deux paragraphes réels de tes fiches -->
+              <p>Le <strong>CARIJ</strong> est une organisation non gouvernementale de développement conformément au N° 854/MPD/2016 du 22 Août 2016. Le CARIJ a conclu un accord-programme avec le gouvernement de la République Togolaise conformément au N° 812/MPD/2018 du 31 Août 2018.</p>
+              
+              <p>Nous nous appuyons sur une équipe pluridisciplinaire de juristes, de sociologues, d'anthropologues, d'économistes, de gestionnaires et de cartographes sous la supervision de l'administrateur de CARIJ qui totalise plus de trente années d'expérience.</p>
               
               <ul class="mission-list mt-4">
-                <li><span class="icon">🏛️</span> <strong>Améliorer</strong> le fonctionnement de la justice</li>
-                <li><span class="icon">⚖️</span> <strong>Accompagner</strong> les réformes institutionnelles et juridictionnelles</li>
-                <li><span class="icon">📜</span> <strong>Proposer</strong> des politiques publiques novatrices</li>
+                <li><span class="icon">🏛️</span> <strong>Accompagner</strong> les structures, les organisations et les institutions.</li>
+                <li><span class="icon">⚖️</span> <strong>Structurer</strong> les réformes institutionnelles, organisationnelles et juridictionnelles.</li>
+                <li><span class="icon">🌍</span> <strong>Prendre en compte</strong> les exigences de l'évolution de la société.</li>
               </ul>
             </div>
             <div class="about-image">
@@ -98,60 +106,59 @@
         </div>
       </section>
 
-      <!-- Domaines d'intervention -->
+      <!-- Domaines d'intervention (Remplacé par : Les différents organismes de CARIJ) -->
       <section id="domaines" class="section domains-section">
         <div class="container">
           <div class="section-header text-center">
-            <span class="badge">Domaines de compétence</span>
-            <h2>Interventions & Appuis Techniques</h2>
+            <span class="badge">Structure & Champs d'Action</span>
+            <h2>Les différents organismes de CARIJ</h2>
             <div class="separator-gold mx-auto"></div>
-            <p class="section-desc">Des actions transversales en faveur des droits humains et du droit institutionnel.</p>
+            <p class="section-desc">Quatre pôles majeurs concourent à la réalisation des missions et des interventions du CARIJ.</p>
           </div>
           
           <div class="domains-grid">
             <div class="domain-card-legal">
               <div class="card-header">
-                <span class="icon-legal">⚖️</span>
-                <h3>Système Judiciaire</h3>
+                <span class="icon-legal">🎓</span>
+                <h3>Renforcement des Capacités</h3>
               </div>
               <div class="card-body">
-                <p>Apporter des solutions techniques pour pallier la lenteur de la justice et favoriser l'accessibilité aux droits pour l'ensemble des citoyens.</p>
-              </div>
-            </div>
-            
-            <div class="domain-card-legal">
-              <div class="card-header">
-                <span class="icon-legal">🏛️</span>
-                <h3>Réformes de l'État</h3>
-              </div>
-              <div class="card-body">
-                <p>Analyse et appui à la refonte des institutions étatiques pour garantir une administration juste, efficace et conforme aux conventions des droits.</p>
-              </div>
-            </div>
-            
-            <div class="domain-card-legal">
-              <div class="card-header">
-                <span class="icon-legal">🔒</span>
-                <h3>Droit Pénitentiaire</h3>
-              </div>
-              <div class="card-body">
-                <p>Lutte contre la surpopulation carcérale, accompagnement de la réinsertion sociale et études visant à faire reculer le taux de récidive.</p>
+                <p>Gestion des droits catégoriels, égalité de genre et développement, ainsi que le déploiement des techniques de plaidoyer et de mobilisation sociale.</p>
               </div>
             </div>
             
             <div class="domain-card-legal">
               <div class="card-header">
                 <span class="icon-legal">📊</span>
-                <h3>Politiques Publiques</h3>
+                <h3>Études et Projets</h3>
               </div>
               <div class="card-body">
-                <p>Consultations régulières, coordination d'ateliers multi-acteurs et publication d'études chiffrées stratégiques (ex: sur la récidive).</p>
+                <p>Analyses approfondies, conceptions méthodologiques, élaboration complète et suivi rigoureux de la mise en œuvre des projets de l'organisation.</p>
+              </div>
+            </div>
+            
+            <div class="domain-card-legal">
+              <div class="card-header">
+                <span class="icon-legal">⚖️</span>
+                <h3>Assistance et Conseils Juridiques</h3>
+              </div>
+              <div class="card-body">
+                <p>Interventions directes et avis d'experts axés sur le Droit et la Justice pour orienter et sécuriser les réformes structurelles.</p>
+              </div>
+            </div>
+
+            <div class="domain-card-legal">
+              <div class="card-header">
+                <span class="icon-legal">🤝</span>
+                <h3>Suivi et Réinsertion</h3>
+              </div>
+              <div class="card-body">
+                <p>Accompagnement socio-économique global des ex-détenus, suivi sur le terrain et actions d'appui pour favoriser la réinsertion sociale.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <!-- Réalisations / Galerie -->
       <section id="realisations" class="section gallery-section bg-soft-gray">
         <div class="container">
@@ -165,7 +172,6 @@
           <div class="gallery mt-5">
             <?php
               $dir = 'gallery/';
-              // GLOB_BRACE n'est parfois pas supporté sur certains OS, fallback sécurisé :
               $images = [];
               if (is_dir($dir)) {
                   $extensions = ['jpg', 'jpeg', 'png', 'webp'];
@@ -283,7 +289,7 @@
           </div>
           <div class="footer-nav">
              <a href="#mission">À propos</a>
-             <a href="#domaines">Domaines</a>
+             <a href="#domaines">Organismes</a>
              <a href="#realisations">Réalisations</a>
              <a href="#contact">Contact</a>
           </div>
