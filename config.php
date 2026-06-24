@@ -7,7 +7,7 @@
 $SITE_NAME = "CARIJ - Comité d’Appui aux Réformes Institutionnelles et Juridictionnelles";
 $SITE_URL  = "https://carij.tg"; 
 $CONTACT_EMAIL = "contact@carij.tg";
-$CONTACT_PHONE = "+228 00 00 00 00"; 
+$CONTACT_PHONE = "+228 90327494"; 
 
 // --- Localisation ---
 $ADDRESS = "Lomé, Togo";

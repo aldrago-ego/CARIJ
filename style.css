@@ -433,6 +433,10 @@ a:hover {
 .contact-info-legal h2 {
     color: var(--blanc);
 }
+.contact-info-legal p {
+    color: var(--parchment) !important;
+    opacity: 0.9; /* Donne un effet élégant et moins agressif que le blanc pur */
+}
 
 .contact-info-legal .separator-gold-left {
     background: var(--vert-logo);
@@ -651,9 +655,62 @@ a:hover {
     }
 }
 /* Responsive basics */
+/* ==========================================
+   RESPONSIVE & MENU MOBILE (CORRIGÉ)
+   ========================================== */
 @media (max-width: 992px) {
-    .about-grid, .domains-grid, .contact-wrapper { grid-template-columns: 1fr; }
-    .gallery { grid-template-columns: repeat(2, 1fr); }
-    .menu-toggle { display: block; }
-    .nav-links { display: none; } /* Pense à ajouter ton toggle JS */
+    /* 1. FORCE l'apparition du bouton burger */
+    .menu-toggle { 
+        display: block !important; 
+    }
+
+    /* 2. Cache les liens classiques par défaut sur mobile */
+    .nav-links { 
+        display: none; 
+    } 
+
+    /* 3. Point de repère pour le positionnement du menu déroulant */
+    .nav-inner {
+        position: relative;
+    }
+
+    /* 4. Quand le JS ajoute la classe .open, on affiche le menu sous la navbar */
+    .nav-links.open {
+        display: block !important;
+        position: absolute;
+        top: 100%; /* Se place pile sous la barre blanche */
+        left: 0;
+        width: 100%;
+        background-color: var(--blanc);
+        border-bottom: 3px solid var(--vert-logo);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 15px 20px;
+        z-index: 999;
+    }
+
+    /* 5. On empile les liens verticalement */
+    .nav-links.open ul {
+        flex-direction: column;
+        display: flex;
+    }
+
+    /* 6. Ajustements des espacements des liens */
+    .nav-links.open li {
+        margin: 12px 0;
+        margin-left: 0;
+    }
+    
+    .nav-links.open a {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* Ajustement des grilles globales pour mobile */
+    .about-grid, .domains-grid, .contact-wrapper { 
+        grid-template-columns: 1fr; 
+    }
+    .gallery { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
 }
