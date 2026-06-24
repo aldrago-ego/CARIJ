@@ -433,6 +433,10 @@ a:hover {
 .contact-info-legal h2 {
     color: var(--blanc);
 }
+
+.contact-info-legal Strong {
+    color: var(--blanc);
+}
 .contact-info-legal p {
     color: var(--parchment) !important;
     opacity: 0.9; /* Donne un effet élégant et moins agressif que le blanc pur */
